@@ -28,5 +28,13 @@ namespace Grupo8_Autoshop
             da.Show();
             this.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ProgramaCita da = new ProgramaCita();
+            da.Show();
+            this.Hide();
+;
+        }
     }
 }
