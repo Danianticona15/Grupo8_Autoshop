@@ -111,6 +111,12 @@
     <EmbeddedResource Include="ManteProveedor.resx">
       <DependentUpon>ManteProveedor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ManteRepuesto.resx">
+      <DependentUpon>ManteRepuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManteServicios.resx">
+      <DependentUpon>ManteServicios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
