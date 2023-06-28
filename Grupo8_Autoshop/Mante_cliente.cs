@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Grupo8_Autoshop
 {
-    public partial class ManteRepuesto : Form
+    public partial class Mante_cliente : Form
     {
-        public ManteRepuesto()
+        public Mante_cliente()
         {
             InitializeComponent();
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
