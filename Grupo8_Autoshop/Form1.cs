@@ -21,5 +21,11 @@ namespace Grupo8_Autoshop
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ManteRepuesto da = new ManteRepuesto();
+            da.Show();
+        }
     }
 }
