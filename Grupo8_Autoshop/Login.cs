@@ -44,7 +44,9 @@ namespace Grupo8_Autoshop
                 txtaceptar.Clear();
                 txtcontraseña.Clear();
                 Form1 f = new Form1();
-                f.ShowDialog();
+                f.Show();
+
+                this.Hide();
             }
         }
     }

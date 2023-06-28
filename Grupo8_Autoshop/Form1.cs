@@ -26,6 +26,7 @@ namespace Grupo8_Autoshop
         {
             ManteRepuesto da = new ManteRepuesto();
             da.Show();
+            this.Hide();
         }
     }
 }
