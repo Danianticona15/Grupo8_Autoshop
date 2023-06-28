@@ -76,12 +76,6 @@
     <Compile Include="ManteProveedor.Designer.cs">
       <DependentUpon>ManteProveedor.cs</DependentUpon>
     </Compile>
-    <Compile Include="Mante_cliente.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Mante_cliente.Designer.cs">
-      <DependentUpon>Mante_cliente.cs</DependentUpon>
-    </Compile>
     <Compile Include="OrdenVenta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,9 +110,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ManteServicios.resx">
       <DependentUpon>ManteServicios.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Mante_cliente.resx">
-      <DependentUpon>Mante_cliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OrdenVenta.resx">
       <DependentUpon>OrdenVenta.cs</DependentUpon>
