@@ -58,6 +58,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="ManteCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManteCliente.Designer.cs">
+      <DependentUpon>ManteCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="ManteRepuesto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManteCliente.resx">
+      <DependentUpon>ManteCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManteProveedor.resx">
       <DependentUpon>ManteProveedor.cs</DependentUpon>
