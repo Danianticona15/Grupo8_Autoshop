@@ -58,12 +58,6 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="ManteFPago.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ManteFPago.Designer.cs">
-      <DependentUpon>ManteFPago.cs</DependentUpon>
-    </Compile>
     <Compile Include="ManteRepuesto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,8 +99,8 @@
     <EmbeddedResource Include="EjecucionTrabajo.resx">
       <DependentUpon>EjecucionTrabajo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ManteFPago.resx">
-      <DependentUpon>ManteFPago.cs</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManteProveedor.resx">
       <DependentUpon>ManteProveedor.cs</DependentUpon>
