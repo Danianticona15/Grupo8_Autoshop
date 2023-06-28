@@ -10,8 +10,10 @@ using CapaEntidad;
 
 namespace CapaDatos
 {
-    public class Cliente
+    public class datcliente
     {
+        public static object Instancia { get; set; }
+
         public List<entcliente> ListarCliente()
         {
             SqlCommand cmd = null;

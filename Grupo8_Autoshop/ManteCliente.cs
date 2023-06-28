@@ -16,5 +16,12 @@ namespace Grupo8_Autoshop
         {
             InitializeComponent();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ProgramaCita ci = new ProgramaCita();
+            ci.Show();
+            this.Hide();
+        }
     }
 }

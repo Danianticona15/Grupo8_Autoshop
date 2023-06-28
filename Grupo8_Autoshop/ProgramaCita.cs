@@ -16,5 +16,12 @@ namespace Grupo8_Autoshop
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ManteCliente ma = new ManteCliente();
+            ma.Show();
+            this.Hide();
+        }
     }
 }
