@@ -22,7 +22,7 @@ namespace CapaDatos
             {
                 SqlConnection cn = Conexion.Instancia.Conectar(); //singleton
                 cmd = new SqlCommand("spListaCliente", cn);
-                //cmd = new SqlCommand("select * from Cliente", cn);
+                cmd = new SqlCommand("select * from Cliente", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cn.Open();
                 SqlDataReader dr = cmd.ExecuteReader();
